@@ -39,32 +39,109 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
+## Developer information
+email: stephadhok.co@gmail.com
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### Project Overview
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Decentralized Video Sharing Platform
 
-### Code Splitting
+Video Streaming: Utilize the Theta Video API to stream videos seamlessly.
+Edge Node Integration: Allow users to contribute computational resources via the Theta Edge Node and earn token rewards.
+Smart Contracts: Manage content rights and rewards using smart contracts on the Theta Network.
+Project Structure
+Frontend: React.js
+Backend: Node.js
+Smart Contracts: Theta Network
+Detailed Project Plan
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### Frontend (React.js)
+Main Components:
 
-### Analyzing the Bundle Size
+Home Page:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Introduction to the platform.
+Display featured videos.
+Video Player:
 
-### Making a Progressive Web App
+Integrate Theta Video API for video streaming.
+Display video metadata (title, description, uploader, etc.).
+Upload Video:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Form for users to upload videos.
+Integration with Theta Video API for video processing.
 
-### Advanced Configuration
+### Backend (Node.js)
+Main Modules:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+API Server:
+Express.js server to handle API requests.
 
-### Deployment
+Video Management:
+Endpoints for video upload, retrieval, and streaming.
+Integration with Theta Video API.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+Edge Node Integration:
+Endpoints to manage computational resource contributions.
+Integration with Theta Edge Node API.
 
-### `npm run build` fails to minify
+Smart Contract Interaction:
+Web3.js or Ethers.js to interact with Theta Network smart contracts.
+Endpoints for smart contract transactions (content rights, rewards).
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### Smart Contracts (Theta Network)
+Main Contracts:
+
+Content Rights Management:
+
+Define ownership of videos.
+Ensure proper attribution and licensing.
+Reward Distribution:
+
+Manage distribution of token rewards to users.
+Define conditions for earning rewards.
+Key Libraries and Tools:
+
+Solidity for smart contract development.
+Truffle or Hardhat for testing and deployment.
+Theta Network SDK for interacting with the Theta blockchain.
+Implementation Steps
+Setup Project Environment:
+
+Initialize Git repository.
+Setup frontend with create-react-app.
+Setup backend with Express.js.
+Configure development and production environments.
+## Frontend Development:
+
+Create components for homepage, video player, upload form, and user dashboard.
+Implement routing and state management.
+Integrate Theta Video API for video streaming and uploads.
+
+## Backend Development:
+
+Create Express.js server.
+Implement API endpoints for user management, video management, and edge node interactions.
+Setup authentication and authorization.
+Integrate with MongoDB for data storage.
+Smart Contract Development:
+
+Write and test smart contracts for content rights management and reward distribution.
+Deploy smart contracts to the Theta Network.
+Integrate smart contracts with backend using Web3.js or Ethers.js.
+Edge Node Integration:
+
+Allow users to contribute computational resources.
+Track and reward users based on contributions using the Theta Edge Node API.
+Testing and Deployment:
+
+Write unit and integration tests for frontend, backend, and smart contracts.
+Setup CI/CD pipelines.
+Deploy frontend on a platform like Vercel or Netlify.
+Deploy backend on a service like Heroku or AWS.
+Deploy smart contracts to Theta mainnet.
+Monitoring and Maintenance:
+
+Setup monitoring for server performance and blockchain interactions.
+Regularly update dependencies and security patches.
+Gather user feedback and iterate on features.
